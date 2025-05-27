@@ -1,0 +1,21 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "WebApp LP1 CRUD",
+  "keywords": [
+    "CRUD",
+    "NODEJS",
+    "JSONSERVER"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com/antunesnick/WebApp-LP1"
+  },
+  "license": "ISC",
+  "author": "Nickolas Antunes & Guilherme Aparecido",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
