@@ -1,11 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/usuarios.css">
     <title>Cadastro de Usuários</title>
 </head>
 <body>
-    
+    <main class="container">
+        <div class="header">
+            <h2>Criar uma conta</h2>
+        </div>
+
+        <form action="post">
+            <div class="form-control error">
+                <label for="username">Nome de usuário</label>
+                <input type="text" id="username" placeholder="Digite seu nome de usuário">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>O nome de usúario é obrigatório.</small>
+            </div>
+            <div class="form-control error">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu email">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Por favor, insira um e-mail válido.</small>
+            </div>
+            <div class="form-control success">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Digite sua senha">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>A senha é obrigatória</small>
+            </div>
+            <div class="form-control success">
+                <label for="confirm-password">Confirme sua senha</label>
+                <input type="password" id="confirm-password" placeholder="Digite sua senha">
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>As senhas não conferem.</small>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <script src="https://kit.fontawesome.com/9680025836.js" crossorigin="anonymous"></script>
 </body>
 </html>
