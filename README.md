@@ -53,8 +53,8 @@ Este projeto consiste no desenvolvimento de uma aplicação web com funcionalida
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/antunesnick/WebApp-LP1.git
+cd WebApp-LP1
 ```
 
 2. **Instale o JSON Server** (caso ainda não tenha)
