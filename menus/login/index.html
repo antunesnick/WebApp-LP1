@@ -8,15 +8,15 @@
 </head>
 <body class="d-flex align-items-center py-4 bg-body-tertiary">
     <main class="w-100 m-auto form-container">
-        <form action="post">
+        <form action="post" id="formPrincipal">
             <img src="../../assets/logoLogin.svg" alt="Logo Login" class="mb-4" height="57" width="72">
             <h1 class="h3 mb-3 fw-normal">Por favor, logue-se</h1>
             <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Nome de usuário">
+                <input type="text" class="form-control" id="floatingInput user-name" placeholder="Nome de usuário">
                 <label for="floatingInput">Usuário</label>
             </div>
             <div class="form-floating">
-                <input type="password" class="form-control" id="floatingInput" placeholder="Senha">
+                <input type="password" class="form-control" id="floatingInput password" placeholder="Senha">
                 <label for="floatingInput">Senha</label>
             </div>
             <div class="form-check text-start my-3">
@@ -27,5 +27,6 @@
             <p class="text-body-secondary mt-5 mb-3"> © 2025</p>
         </form>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
