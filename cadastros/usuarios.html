@@ -12,29 +12,29 @@
             <h2>Criar uma conta</h2>
         </div>
 
-        <form action="post">
-            <div class="form-control error">
+        <form action="" id="formPrincipal">
+            <div class="form-control" id="user-div">
                 <label for="username">Nome de usuário</label>
                 <input type="text" id="username" placeholder="Digite seu nome de usuário">
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>O nome de usúario é obrigatório.</small>
             </div>
-            <div class="form-control error">
+            <div class="form-control " id="email-div">
                 <label for="email">E-mail</label>
                 <input type="email" id="email" placeholder="Digite seu email">
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Por favor, insira um e-mail válido.</small>
             </div>
-            <div class="form-control success">
+            <div class="form-control " id="password-div">
                 <label for="password">Senha</label>
                 <input type="password" id="password" placeholder="Digite sua senha">
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>A senha é obrigatória</small>
             </div>
-            <div class="form-control success">
+            <div class="form-control " id="confirm-password-div">
                 <label for="confirm-password">Confirme sua senha</label>
                 <input type="password" id="confirm-password" placeholder="Digite sua senha">
                 <i class="fas fa-exclamation-circle"></i>
@@ -45,5 +45,6 @@
         </form>
     </main>
     <script src="https://kit.fontawesome.com/9680025836.js" crossorigin="anonymous"></script>
+    <script src="./scripts/usuarios.js"></script>
 </body>
 </html>
